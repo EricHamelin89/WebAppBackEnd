@@ -9,6 +9,7 @@ const bcrypt = require("bcrypt");
 const saltRounds = 10;
 
 const app = express();
+// const port = process.env.PORT || 3001;
 const port = 3001; // Must be different than the port of the React app
 const dbName = "myFirstDb";
 
